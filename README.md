@@ -16,6 +16,10 @@ A tabletop electronic safe. Scan an RFID card to start, enter a secret sequence 
 As of writing this, some sensors don't work in the sim and can be bypassed by typing codes in the serial monitor for my project. Start by scanning the RFID card, if it doesn't work on the sim, type "scan" in the serial monitor. Next, use the 2 buttons to write the code, one button is change number and the other is confirm. The code is 1337. To close the safe, increase the temp by 5 celsius. This can be done IRL by placing your hand over the sensor, but if you can't do it in the sim, set the temp before unlocking the safe by typing "temp <celsius>" in the serial monitor and increasing it by 5 to lock the safe once opened.
 
 
+## What It Does
+It basically is a vault where you can store items with and RFID scanner and temp sensor.
+
+
 ## Demo
 
 - **Try it:** [https://breadboard.hackclub.com/share/94](https://breadboard.hackclub.com/share/94)
