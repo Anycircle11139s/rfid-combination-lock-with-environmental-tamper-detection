@@ -5,7 +5,7 @@
 ![RFID Combination Lock with Environmental Tamper Detection](https://breadboard.hackclub.com/api/uploads/project-screenshots/WhKgYkbtBu6TToeYEtrImv7lv05UInqG/94/f7174e4b-5944-4b6e-aaae-3b83f5653a99.png)
 
 
-> Built in [Breadboard](https://breadboard.hackclub.com), a Hack Club program. This project took ~2.1 hours of work.
+> Built in [Breadboard](https://breadboard.hackclub.com), a Hack Club program. This project took ~2.2 hours of work.
 
 
 
@@ -64,7 +64,7 @@ Build journal entries are kept in [`journals.md`](journals.md).
 
 
 
-*Made in [Breadboard](https://breadboard.hackclub.com) — 2.1h of work*
+*Made in [Breadboard](https://breadboard.hackclub.com) — 2.2h of work*
 
 
 
