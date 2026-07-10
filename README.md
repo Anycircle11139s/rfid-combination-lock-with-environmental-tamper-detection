@@ -4,20 +4,24 @@
 
 ![RFID Combination Lock with Environmental Tamper Detection](https://breadboard.hackclub.com/api/uploads/project-screenshots/WhKgYkbtBu6TToeYEtrImv7lv05UInqG/94/f7174e4b-5944-4b6e-aaae-3b83f5653a99.png)
 
-A tabletop electronic safe. Scan an RFID card to start, enter a secret sequence on the button input, watch progress on an LCD, and a servo unlocks the vault door on success. A DHT11 acts as a tamper sensor (if someone opens the case, temp/humidity spikes trigger lockout). An RTC logs unlock timestamps as a vault log.
-
 
 > Built in [Breadboard](https://breadboard.hackclub.com), a Hack Club program. This project took ~2.1 hours of work.
 
 
 
+## What It Does
+
+A tabletop electronic safe. Scan an RFID card to start, enter a secret sequence on the button input, watch progress on an LCD, and a servo unlocks the vault door on success. A DHT11 acts as a tamper sensor (if someone opens the case, temp/humidity spikes trigger lockout). An RTC logs unlock timestamps as a vault log.
+
+
+## How It Works
+
+The circuit is captured in `breadboard-project.json`, and the firmware that runs it is in the `firmware/` folder.
+
+
 ## How To Use It
 
 As of writing this, some sensors don't work in the sim and can be bypassed by typing codes in the serial monitor for my project. Start by scanning the RFID card, if it doesn't work on the sim, type "scan" in the serial monitor. Next, use the 2 buttons to write the code, one button is change number and the other is confirm. The code is 1337. To close the safe, increase the temp by 5 celsius. This can be done IRL by placing your hand over the sensor, but if you can't do it in the sim, set the temp before unlocking the safe by typing "temp <celsius>" in the serial monitor and increasing it by 5 to lock the safe once opened.
-
-
-## What It Does
-It basically is a vault where you can store items with and RFID scanner and temp sensor.
 
 
 ## Demo
