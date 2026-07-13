@@ -2,10 +2,10 @@
 
 
 
-![RFID Combination Lock with Environmental Tamper Detection](https://breadboard.hackclub.com/api/uploads/project-screenshots/WhKgYkbtBu6TToeYEtrImv7lv05UInqG/94/f7174e4b-5944-4b6e-aaae-3b83f5653a99.png)
+![RFID Combination Lock with Environmental Tamper Detection](screenshot.png)
 
 
-> Built in [Breadboard](https://breadboard.hackclub.com), a Hack Club program. This project took ~2.2 hours of work.
+> Built in [Breadboard](https://breadboard.hackclub.com), a Hack Club program. This project took ~3 hours of work.
 
 
 
@@ -26,7 +26,8 @@ As of writing this, some sensors don't work in the sim and can be bypassed by ty
 
 ## Demo
 
-- **Try it:** [https://breadboard.hackclub.com/share/94](https://breadboard.hackclub.com/share/94)
+- **Simulate it live:** [https://breadboard.hackclub.com/share/94](https://breadboard.hackclub.com/share/94), runs the firmware in the Breadboard simulator
+- **View the design:** [https://taniwankenobi.github.io/breadboard-plays/p/94/](https://taniwankenobi.github.io/breadboard-plays/p/94/)
 
 
 ## Schematic
@@ -64,7 +65,7 @@ Build journal entries are kept in [`journals.md`](journals.md).
 
 
 
-*Made in [Breadboard](https://breadboard.hackclub.com) — 2.2h of work*
+*Made in [Breadboard](https://breadboard.hackclub.com) — 3h of work*
 
 
 
